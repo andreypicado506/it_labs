@@ -7,7 +7,7 @@
 - Modificar el archivo `/etc/ssh/sshd_config` de forma que:
     - El servicio SSHD solamente responda en el puerto 2222.
     - La autenticación de SSH mediante contraseña quede deshabilitada. Es decir, SSH solamente debe funcionar con llaves.
-    - Nota: SSH funciona por defecto con el puerto 22. Cuando se corre el comando `ssh user@host` es lo mismo que correr `ssh -p 22 user@host`, l cual significa que si el servidor de SSH tiene otro puerto configurado, hay que especificarlo en el comando.
+    - Nota: SSH funciona por defecto con el puerto 22. Cuando se corre el comando `ssh user@host` es lo mismo que correr `ssh -p 22 user@host`, lo cual significa que si el servidor de SSH tiene otro puerto configurado, hay que especificarlo en el comando.
 - Verificar que las configuraciones mencionadas funcionan conectándose mediante SSH utilizando llaves.
 
 ## Instalando Python
